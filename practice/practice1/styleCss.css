@@ -1,0 +1,16 @@
+body {
+	background-color: #D6EAF8;
+}
+img {
+	width: 500px;
+}
+#title {
+	color: #7B241C;
+	font-size: 40px;
+}
+.myred {
+	color: #ff0000;
+}
+.myblue {
+	color: #0000ff;
+}
