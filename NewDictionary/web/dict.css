@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2017, 2:02:37 PM
+    Author     : Samita
+*/
+body{
+    margin: 0px;
+}
+.headerBar{
+    height: 30px;
+    background-color: #CCCCCC;
+    padding: 5px;
+    margin: 0px;
+    font-size: 24px;
+}
+
+.searchBar{
+    background-color: #E0E0E0;
+    padding: 10px;
+    vertical-align: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #2196F3;
+    color: white;
+}
+
+.validatorTool {
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
