@@ -30,7 +30,7 @@ public class dictServlet extends HttpServlet {
         response.setContentType("application/json");
         PrintWriter out = response.getWriter();
         
-        String term = request.getParameter("term"); //??
+        String term = request.getParameter("term"); 
         JSONObject jsonObj = new JSONObject();
         
         try {

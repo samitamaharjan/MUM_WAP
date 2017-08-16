@@ -18,9 +18,9 @@ $(document).ready(function() {
         var searchUrl = baseURL + "dictServlet";
         
         var displayResult = function(data){
-            var arr = data.output; //??
-            $("#result").text("");
-            $("#result").append("<tr><th colspan='4'>" + arr.length + "reslt(s)</th></tr>");
+            var arr = data.output; 
+            $("#result").text(""); // clear all existing content
+            $("#result").append("<tr><th colspan='4'>" + arr.length + "result(s)</th></tr>");
             
             for (var i = 0; i < arr.length; i++) {
                 $("#result").append("<tr><td>" + (parseInt(i)+1)
@@ -30,11 +30,11 @@ $(document).ready(function() {
                     + "</td></tr>");
             }
             
-            /*for(var key in list){
-                $("#result").append("<tr><td>"+(parseInt(key)+1)
-                    +"</td><td>"+list[key].word
-                    +"</td><td> ("+list[key].wordType
-                    +") </td><td>:: "+list[key].definition
+            /*for(var index in list){
+                $("#result").append("<tr><td>"+(parseInt(index)+1)
+                    +"</td><td>"+list[index].word
+                    +"</td><td> ("+list[index].wordType
+                    +") </td><td>:: "+list[index].definition
                     +"</td></tr>");
             }*/
             
