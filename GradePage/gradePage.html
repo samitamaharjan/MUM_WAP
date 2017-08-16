@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Retrieve Grade</title>
+        <link href="grade.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <form action="http://mumstudents.org/params.php">
+        <div>
+            <h1>Retrieve your grade</h1>
+            <p>
+                <label>Name:</label> <input name="studentName"/>
+            </p>
+             <p>
+                 <label>Student ID: </label><input name="studentId"/>
+             </p>
+             <p>
+                 <label>Assignments: </label>
+                 <select>
+                     <option selected>Assignment1</option>
+                     <option>Assignment2</option>
+                     <option>Assignment3</option>
+                 </select>
+             </p>
+             <p>
+                 <label>Entry: </label>
+                 <label><input type="radio" name="entry" value="Jan2017"/>Jan2017</label>
+                 <label><input type="radio" name="entry" value="Feb2017"/>Feb2017</label>
+                 <input type="radio" name="entry" value="April2017"/>April2017
+             </p>
+             <p class="break"></p>
+             <p>
+                 <input type="checkbox" name="confirmed"/>Confirmed
+             </p>
+             <input type="submit" value="Get Grade!">
+        </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 24, 2017, 3:47:16 PM
+    Author     : Samita
+*/
+body {
+    background: gray;
+}
+h1, h2 {
+    color: lightsteelblue;
+}
+
+a {
+    color: lightsalmon;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #0000FF;
+}
+.intro strong, dt{
+  color: yellow;  
+}
+p {
+    color: white;
+    font-family: "Times New Roman", Arial, Georgia;
+    font-size: 18px;
+}
+p:first-letter {
+    font-size: 32px;
+    font-weight: bold;
+}
+li, span {
+    color: white;
+    font-family: "Times New Roman", Arial, Georgia;
+    font-size: 18px;
+}
+
